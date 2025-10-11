@@ -4,4 +4,5 @@ import solid from "vite-plugin-solid";
 
 export default defineConfig({
     plugins: [tailwindcss(), solid()],
+    base: "/ecommerce-product-page",
 });
