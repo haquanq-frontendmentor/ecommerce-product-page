@@ -75,7 +75,7 @@ export const ProductPicture = () => {
           <For each={pictures}>
             {(item) => (
               <li class="embla__slide flex-[0_0_100%]">
-                <img class="" src={item.image} alt="" />
+                <img class="" src={item.image} alt={item.description} />
               </li>
             )}
           </For>
@@ -94,7 +94,7 @@ export const ProductPicture = () => {
                 <img
                   class={cn("rounded-[inherit] transition-opacity", selectedIndex() === index() && "opacity-40")}
                   src={item.thumbnail}
-                  alt={item.description}
+                  alt=""
                 />
               </button>
               <div
