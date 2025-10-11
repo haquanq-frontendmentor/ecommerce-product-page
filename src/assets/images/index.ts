@@ -1,0 +1,15 @@
+export { default as CartIcon } from "./icon-cart.svg";
+export { default as CloseIcon } from "./icon-close.svg";
+export { default as DeleteIcon } from "./icon-delete.svg";
+export { default as MenuIcon } from "./icon-menu.svg";
+export { default as MinusIcon } from "./icon-minus.svg";
+export { default as NextIcon } from "./icon-next.svg";
+export { default as PlusIcon } from "./icon-plus.svg";
+export { default as PrevIcon } from "./icon-previous.svg";
+export { default as AvatarImage } from "./image-avatar.png";
+export { default as ProductImage1Thumbnail } from "./image-product-1-thumbnail.jpg";
+export { default as ProductImage1 } from "./image-product-1.jpg";
+export { default as ProductImage2Thumbnail } from "./image-product-2-thumbnail.jpg";
+export { default as ProductImage2 } from "./image-product-2.jpg";
+export { default as ProductImage3Thumbnail } from "./image-product-3-thumbnail.jpg";
+export { default as ProductImage3 } from "./image-product-3.jpg";
