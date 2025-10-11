@@ -13,3 +13,6 @@ export { default as ProductImage2Thumbnail } from "./image-product-2-thumbnail.j
 export { default as ProductImage2 } from "./image-product-2.jpg";
 export { default as ProductImage3Thumbnail } from "./image-product-3-thumbnail.jpg";
 export { default as ProductImage3 } from "./image-product-3.jpg";
+export { default as ProductImage4Thumbnail } from "./image-product-4-thumbnail.jpg";
+export { default as ProductImage4 } from "./image-product-4.jpg";
+export { default as SiteLogo } from "./logo.svg";
