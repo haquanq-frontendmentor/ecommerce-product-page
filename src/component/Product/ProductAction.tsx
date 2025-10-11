@@ -18,17 +18,19 @@ export const ProductAction = () => {
   };
 
   const handleAddCartClick = () => {
-    cartStore.addItem({
-      product: {
-        title: "Fall Limited Edition Sneakers",
-        description: "",
-        price: 250,
-        discount: 0.5,
-        image: "",
-        thumbnail: ProductImage1Thumbnail,
-      },
-      quantity: quantity(),
-    });
+    if (quantity() > 0) {
+      cartStore.addItem({
+        product: {
+          title: "Fall Limited Edition Sneakers",
+          description: "",
+          price: 250,
+          discount: 0.5,
+          image: "",
+          thumbnail: ProductImage1Thumbnail,
+        },
+        quantity: quantity(),
+      });
+    }
   };
   return (
     <div class="flex flex-col gap-4 sm:flex-row">
