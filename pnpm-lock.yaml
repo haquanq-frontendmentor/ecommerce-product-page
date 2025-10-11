@@ -11,6 +11,9 @@ importers:
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
+      embla-carousel-solid:
+        specifier: ^8.6.0
+        version: 8.6.0(solid-js@1.9.9)
       solid-js:
         specifier: ^1.9.9
         version: 1.9.9
@@ -578,6 +581,19 @@ packages:
 
   electron-to-chromium@1.5.234:
     resolution: {integrity: sha512-RXfEp2x+VRYn8jbKfQlRImzoJU01kyDvVPBmG39eU2iuRVhuS6vQNocB8J0/8GrIMLnPzgz4eW6WiRnJkTuNWg==}
+
+  embla-carousel-reactive-utils@8.6.0:
+    resolution: {integrity: sha512-fMVUDUEx0/uIEDM0Mz3dHznDhfX+znCCDCeIophYb1QGVM7YThSWX+wz11zlYwWFOr74b4QLGg0hrGPJeG2s4A==}
+    peerDependencies:
+      embla-carousel: 8.6.0
+
+  embla-carousel-solid@8.6.0:
+    resolution: {integrity: sha512-xQQjPZL+CQ4n2KemoeTu0BD9mk8tkVuSMOe/GEnzKM0lAoXY/akSYBNZ4dvJDE7TMeUCAuI6D9742TTLglGq/A==}
+    peerDependencies:
+      solid-js: ^1.0.0
+
+  embla-carousel@8.6.0:
+    resolution: {integrity: sha512-SjWyZBHJPbqxHOzckOfo8lHisEaJWmwd23XppYFYVh10bU66/Pn5tkVkbkCMZVdbUE5eTCI2nD8OyIP4Z+uwkA==}
 
   enhanced-resolve@5.18.3:
     resolution: {integrity: sha512-d4lC8xfavMeBjzGr2vECC3fsGXziXZQyJxD868h2M/mBI3PwAuODxAkLkq5HYuvrPYcUtiLzsTo8U3PgX3Ocww==}
@@ -1377,6 +1393,18 @@ snapshots:
   detect-libc@2.1.2: {}
 
   electron-to-chromium@1.5.234: {}
+
+  embla-carousel-reactive-utils@8.6.0(embla-carousel@8.6.0):
+    dependencies:
+      embla-carousel: 8.6.0
+
+  embla-carousel-solid@8.6.0(solid-js@1.9.9):
+    dependencies:
+      embla-carousel: 8.6.0
+      embla-carousel-reactive-utils: 8.6.0(embla-carousel@8.6.0)
+      solid-js: 1.9.9
+
+  embla-carousel@8.6.0: {}
 
   enhanced-resolve@5.18.3:
     dependencies:

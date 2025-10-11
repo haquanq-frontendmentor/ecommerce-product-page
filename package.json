@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "clsx": "^2.1.1",
+    "embla-carousel-solid": "^8.6.0",
     "solid-js": "^1.9.9",
     "tailwind-merge": "^3.3.1"
   },
