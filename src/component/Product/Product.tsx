@@ -4,7 +4,7 @@ import { ProductPicture } from "./ProductPicuture";
 
 export const Product = () => {
   return (
-    <section class="mx-auto flex max-w-[69.375rem] flex-col items-center justify-center pb-16 *:max-w-160 md:px-12 md:pt-16 lg:flex-row lg:items-start lg:justify-between lg:pt-[5.625rem] lg:pb-[8.125rem] lg:*:max-w-[27.8125rem]">
+    <section class="mx-auto flex max-w-[69.375rem] flex-col items-center justify-center pb-16 *:max-w-160 md:px-12 md:pt-16 lg:flex-row lg:items-start lg:justify-between lg:pt-[5.625rem] lg:pb-33 lg:*:max-w-[27.8125rem]">
       <div>
         <ProductPicture />
       </div>
