@@ -88,10 +88,20 @@ export const ProductPicture = () => {
         </For>
       </ul>
       <div class="absolute inset-x-4 top-1/2 flex -translate-y-1/2 justify-between *:flex *:aspect-square *:w-10 *:items-center *:justify-center *:rounded-full *:bg-white md:*:w-12 lg:hidden">
-        <button class="pr-1 focus-visible:outline-white" type="button" onclick={handlePrevClick}>
+        <button
+          class="pr-1 focus-visible:outline-white"
+          type="button"
+          onclick={handlePrevClick}
+          aria-label="Show previous image"
+        >
           <img src={PrevIcon} alt="" />
         </button>
-        <button class="pl-1 focus-visible:outline-white" type="button" onclick={handleNextClick}>
+        <button
+          class="pl-1 focus-visible:outline-white"
+          type="button"
+          onclick={handleNextClick}
+          aria-label="Show next image"
+        >
           <img src={NextIcon} alt="" />
         </button>
       </div>

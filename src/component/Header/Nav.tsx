@@ -79,6 +79,7 @@ export const Nav = () => {
         aria-expanded={menuOpen()}
         aria-controls="mobile-menu"
         onClick={handleMenuButtonClick}
+        aria-label="Mobile menu"
       >
         <img class={cn("block", menuOpen() && "hidden")} src={MenuIcon} alt="" />
         <img class={cn("hidden", menuOpen() && "block")} src={CloseIcon} alt="" />
