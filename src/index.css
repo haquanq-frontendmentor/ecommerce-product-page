@@ -65,11 +65,10 @@
     button {
         @apply cursor-pointer;
     }
-}
 
-@layer utilities {
-    .focus-v:focus-visible,
-    .focus-w:focus-within {
+    focus-w:focus-within,
+    a:focus-visible,
+    button:focus-visible {
         @apply outline-[3px] outline-offset-[3px] outline-orange-500 outline-dashed;
     }
 }
