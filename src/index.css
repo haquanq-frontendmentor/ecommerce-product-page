@@ -69,7 +69,7 @@
 
 @layer utilities {
     .focus-v:focus-visible,
-    .focus-w:focus-visible {
+    .focus-w:focus-within {
         @apply outline-[3px] outline-offset-[3px] outline-orange-500 outline-dashed;
     }
 }
