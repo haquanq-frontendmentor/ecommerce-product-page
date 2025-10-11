@@ -16,10 +16,30 @@ import { cn } from "../../utils/cn";
 
 export const ProductPicture = () => {
   const pictures = [
-    { image: ProductImage1, thumbnail: ProductImage1Thumbnail },
-    { image: ProductImage2, thumbnail: ProductImage2Thumbnail },
-    { image: ProductImage3, thumbnail: ProductImage3Thumbnail },
-    { image: ProductImage4, thumbnail: ProductImage4Thumbnail },
+    {
+      image: ProductImage1,
+      thumbnail: ProductImage1Thumbnail,
+      description:
+        "A pair of stylish low-top sneakers with white laces, beige and white leather panels, and orange accents on the heel, displayed on a two-tone orange and beige background.",
+    },
+    {
+      image: ProductImage2,
+      thumbnail: ProductImage2Thumbnail,
+      description:
+        "A pair of beige and white leather sneakers with orange heel accents displayed on stacked white stones, with a dry branch in the foreground against an orange and white background.",
+    },
+    {
+      image: ProductImage3,
+      thumbnail: ProductImage3Thumbnail,
+      description:
+        "A beige and white leather sneaker with orange heel detail balanced on stacked smooth white stones against an orange and white background.",
+    },
+    {
+      image: ProductImage4,
+      thumbnail: ProductImage4Thumbnail,
+      description:
+        "A beige and white leather sneaker with an orange heel accent displayed on stacked white stones against an orange background.",
+    },
   ];
 
   const [selectedIndex, setSelectedIndex] = createSignal(0);
@@ -74,7 +94,7 @@ export const ProductPicture = () => {
                 <img
                   class={cn("rounded-[inherit] transition-opacity", selectedIndex() === index() && "opacity-40")}
                   src={item.thumbnail}
-                  alt=""
+                  alt={item.description}
                 />
               </button>
               <div
