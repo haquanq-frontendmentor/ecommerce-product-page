@@ -64,7 +64,7 @@ export const ProductPicture = () => {
       <ul class="hidden justify-between pt-8 lg:flex">
         <For each={pictures}>
           {(item, index) => (
-            <li class="relative aspect-square max-w-22 rounded-[0.625rem]">
+            <li class="relative aspect-square max-h-22 rounded-[0.625rem]">
               <button
                 class="rounded-[inherit] transition-opacity hover:opacity-50"
                 type="button"
