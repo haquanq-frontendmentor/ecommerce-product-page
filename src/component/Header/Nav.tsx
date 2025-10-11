@@ -85,7 +85,7 @@ export const Nav = () => {
       </button>
       <div
         class={cn(
-          "absolute inset-0 hidden [background:rgba(0,0,0,0.75)]",
+          "absolute inset-0 z-20 hidden [background:rgba(0,0,0,0.75)]",
           menuOpen() && "block",
           "md:static md:block md:[background:initial]",
         )}
